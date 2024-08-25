@@ -1,8 +1,10 @@
-# SVG Animation
+# Font Particle Animation
 
-An svg graph animation using gsap
+A simple font particle animation in pixijs and gsap
 
-[Demo](https://envisagecyberart.in/projects/animations/svg/)
+[Demo 1](https://envisagecyberart.in/projects/animations/font-particle/v1)
+[Demo 2](https://envisagecyberart.in/projects/animations/font-particle/v2)
+[Demo 3](https://envisagecyberart.in/projects/animations/font-particle/v3)
 
 ![Screenshot](Screenshot.png?raw=true)
 

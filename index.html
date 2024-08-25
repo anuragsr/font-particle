@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Text Effect</title>
+	<style>
+		@font-face {
+		  font-family: 'trojan';
+		  src: url('fonts/trajan-pro-3-2.otf') format('opentype');
+		}
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		html, body{
+		  font-family: 'trojan';
+			height: 100%;
+			width: 100%;
+		}
+		body{
+			background: #000;
+			text-align: center;
+		}
+		.wrapper{	
+			margin: 0 auto;
+			width: 454px; 
+			height: 684px;
+			position: relative;
+			background: rgba(0,0,0, 1);
+		}
+		.wrapper canvas{
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+		#ctn-particles{
+			z-index: 2;
+		}
+		.the{
+			opacity: 0;
+	    position: relative;
+    	z-index: 3;
+		}
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		<canvas width="454" height="684" id="ctn-particles"></canvas>
+		<img class="the" src="img/the.png" />
+	</div><br/>
+	<!-- <h1>THIS FONT R this font</h1> -->
+	<script src="js/webfontloader.min.js"></script>
+	<script src="js/TweenMax.min.js"></script>
+	<script src="js/pixi.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
